@@ -3,4 +3,5 @@
     <string name="tab_text_1">Info</string>
     <string name="tab_text_2">Guíame</string>
     <string name="tabText3">Config</string>
+    <string name="locateText">Ubícame</string>
 </resources>
