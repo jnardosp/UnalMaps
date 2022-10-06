@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">UnalMaps</string>
     <string name="tab_text_1">Info</string>
-    <string name="tab_text_2">Guíame</string>
-    <string name="tabText3">Config</string>
+    <string name="tabText2">Ubícame</string>
+    <string name="tab_text_3">Guíame</string>
+    <string name="tabText4">Config</string>
     <string name="locateText">Botón ubícame</string>
 </resources>
