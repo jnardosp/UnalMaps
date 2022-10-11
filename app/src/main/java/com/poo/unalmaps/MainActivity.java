@@ -6,14 +6,14 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.tabs.TabLayout;
 
-import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager2.widget.ViewPager2;
 
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.poo.unalmaps.ui.main.SectionsPagerAdapter;
+import com.poo.unalmaps.ui.main.ScreenPagerAdapter;
 import com.poo.unalmaps.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
@@ -27,11 +27,11 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
-        ViewPager viewPager = binding.viewPager;
-        viewPager.setAdapter(sectionsPagerAdapter);
-        TabLayout tabs = binding.tabs;
-        tabs.setupWithViewPager(viewPager);
+        ScreenPagerAdapter screenPagerAdapter = new ScreenPagerAdapter(this);
+        ViewPager2 viewPager2 = binding.pager;
+        viewPager2.setAdapter(screenPagerAdapter);
+        TabLayout tabs = binding.tabLayout;
+        tabs.setupWithViewPager(viewPager2);
         FloatingActionButton fab = binding.fab;
 
         fab.setOnClickListener(new View.OnClickListener() {
