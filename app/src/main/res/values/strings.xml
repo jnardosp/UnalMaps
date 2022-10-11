@@ -6,4 +6,5 @@
     <string name="tab_text_3">Guíame</string>
     <string name="tabText4">Config</string>
     <string name="locateText">Botón ubícame</string>
+    <string name="mensajeGuiame">Este es guiame</string>
 </resources>

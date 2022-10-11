@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Ubicándote...", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+                onStart();
             }
         });
     }
