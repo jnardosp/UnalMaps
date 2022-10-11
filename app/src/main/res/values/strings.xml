@@ -1,4 +1,5 @@
 <resources>
+    <string name="mapbox_access_token">pk.eyJ1IjoianNvdG9wIiwiYSI6ImNsOTNlbjhhbDA5bXczb3Fta2RkemlvaWEifQ.FfrT1eiEnUqvpCoGQT5ojg</string>
     <string name="app_name">UnalMaps</string>
     <string name="tab_text_1">Info</string>
     <string name="tabText2">Ubícame</string>
