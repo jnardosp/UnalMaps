@@ -36,7 +36,7 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
+        android:id="@+id/locateButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center"
@@ -46,4 +46,15 @@
         app:backgroundTint="@color/orangeRed"
         app:rippleColor="@color/lightGray"
         app:srcCompat="@android:drawable/ic_menu_myplaces" />
+
+    <com.mapbox.maps.MapView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:mapbox_cameraTargetLat="4.636499"
+        mapbox:mapbox_cameraTargetLng="-74.083483"
+        mapbox:mapbox_cameraZoom="14" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
