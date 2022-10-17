@@ -29,8 +29,23 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         // getItem is called to instantiate the fragment for the given page.
-        // Return a PlaceholderFragment (defined as a static inner class below).
-        return PlaceholderFragment.newInstance(position + 1);
+        if(position == 0) {
+            InfoTabFrag infoTabFrag = new InfoTabFrag();
+            return infoTabFrag;
+        }
+        else if(position == 1){
+            LocateMeTabFrag locateMeTabFrag = new LocateMeTabFrag();
+            return locateMeTabFrag;
+        }
+        else if(position == 2){
+            GuideMeTabFrag guideMeTabFrag = new GuideMeTabFrag();
+            return guideMeTabFrag;
+        }
+        else if(position == 3){
+            ConfigTabFrag configTabFrag = new ConfigTabFrag();
+            return configTabFrag;
+        }
+        return null;
     }
 
     @Nullable
@@ -41,7 +56,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        // Show 3 total pages.
+        // Show 4 total pages.
         return 4;
     }
 }

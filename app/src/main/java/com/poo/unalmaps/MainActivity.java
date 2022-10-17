@@ -32,9 +32,9 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(sectionsPagerAdapter);
         TabLayout tabs = binding.tabs;
         tabs.setupWithViewPager(viewPager);
-        FloatingActionButton fab = binding.fab;
+        FloatingActionButton locateButton = binding.locateButton;
 
-        fab.setOnClickListener(new View.OnClickListener() {
+        locateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Ubicándote...", Snackbar.LENGTH_LONG)
