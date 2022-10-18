@@ -1,27 +1,27 @@
 package com.poo.unalmaps;
 
 public class Point {
-    private float coordX;
-    private float coordY;
+    private float cordX;
+    private float cordY;
 
     public Point (float x, float y) {
-        this.coordX = x;
-        this.coordY = y;
+        this.cordX = x;
+        this.cordY = y;
     }
 
-    public Float getCoordX() {
-        return coordX;
+    public Float getCordX() {
+        return cordX;
     }
 
-    public Float getCoordY() {
-        return coordY;
+    public Float getCordY() {
+        return cordY;
     }
 
-    public void setCoordX(Float coordX) {
-        this.coordX = coordX;
+    public void setCordX(Float cordX) {
+        this.cordX = cordX;
     }
 
-    public void setCoordY(Float coordY) {
-        this.coordY = coordY;
+    public void setCordY(Float cordY) {
+        this.cordY = cordY;
     }
 }
