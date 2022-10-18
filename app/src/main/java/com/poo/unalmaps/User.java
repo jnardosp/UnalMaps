@@ -36,7 +36,7 @@ public class User {
         return userPoint;
     }
 
-    //public boolean getAccesibility() {}
+    //public boolean getAccessibility() {}
 
     public List getLastPlaces() {
         return lastPlaces;
