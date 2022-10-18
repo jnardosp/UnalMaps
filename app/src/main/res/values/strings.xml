@@ -6,4 +6,6 @@
     <string name="tab_text_3">Guíame</string>
     <string name="tabText4">Config</string>
     <string name="locateText">Botón ubícame</string>
+    <string name="accessButtonTxt">Voz y Accesibilidad</string>
+    <string name="infoDevsButton">Info Devs</string>
 </resources>

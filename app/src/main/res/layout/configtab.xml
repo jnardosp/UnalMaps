@@ -5,13 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="114dp"
-        android:layout_marginTop="186dp"
-        android:text="This is config"
+    <Button
+        android:id="@+id/accessButton"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="132dp"
+        android:backgroundTint="@color/lightTealGreen"
+        android:text="@string/accessButtonTxt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/infoDevsButton"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="324dp"
+        android:backgroundTint="@color/lightTealGreen"
+        android:text="@string/infoDevsButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

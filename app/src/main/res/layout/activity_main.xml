@@ -26,6 +26,7 @@
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/aquamarine"
             app:tabIndicatorColor="@color/darkBlue" />
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -33,6 +34,7 @@
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/lightAquamarine"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -40,10 +42,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="@dimen/locateButton_margin"
+        android:layout_marginBottom="@dimen/locateButton_margin"
         android:contentDescription="@string/locateText"
         app:backgroundTint="@color/orangeRed"
         app:rippleColor="@color/lightGray"
         app:srcCompat="@android:drawable/ic_menu_myplaces" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
