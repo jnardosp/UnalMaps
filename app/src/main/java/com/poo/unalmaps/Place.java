@@ -1,7 +1,7 @@
 package com.poo.unalmaps;
 
 import java.util.List;
-
+//new
 public class Place {
     private final String name;
     private final List nickNames;

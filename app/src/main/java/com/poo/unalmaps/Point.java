@@ -8,7 +8,7 @@ public class Point {
         this.cordX = x;
         this.cordY = y;
     }
-
+    //new
     public Float getCordX() {
         return cordX;
     }
