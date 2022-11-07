@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
     //Google API for location services.
     FusedLocationProviderClient fusedLocationProviderClient;
 
+    //when running the app!!
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -111,6 +112,7 @@ public class MainActivity extends AppCompatActivity {
                     //updateGPS(view);
                 }
                 else{
+                    //Toast provides simple feedback in a popup
                     Toast.makeText(this, "Unal Maps requiere permiso de Ubicación para funcionar correctamente", Toast.LENGTH_SHORT).show();
                     finish();
                 }
