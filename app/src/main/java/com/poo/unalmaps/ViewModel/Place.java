@@ -1,4 +1,4 @@
-package com.poo.unalmaps;
+package com.poo.unalmaps.ViewModel;
 
 import java.util.List;
 

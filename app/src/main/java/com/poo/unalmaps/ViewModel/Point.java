@@ -1,4 +1,4 @@
-package com.poo.unalmaps;
+package com.poo.unalmaps.ViewModel;
 
 //Made by N0chez
 public class Point {
