@@ -2,19 +2,19 @@ package com.poo.unalmaps.ViewModel;
 
 //Made by N0chez
 public class Point {
-    private float cordX;
-    private float cordY;
+    private double cordX;
+    private double cordY;
 
-    public Point (float x, float y) {
+    public Point (double x, double y) {
         this.cordX = x;
         this.cordY = y;
     }
 
-    public Float getCordX() {
+    public Double getCordX() {
         return cordX;
     }
 
-    public Float getCordY() {
+    public Double getCordY() {
         return cordY;
     }
 

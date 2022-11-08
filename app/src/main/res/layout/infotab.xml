@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <androidx.appcompat.widget.SearchView
-        android:id="@+id/searchView"
+        android:id="@+id/searchViewInfoTab"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
@@ -35,6 +35,6 @@
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchView" />
+        app:layout_constraintTop_toBottomOf="@+id/searchViewInfoTab" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

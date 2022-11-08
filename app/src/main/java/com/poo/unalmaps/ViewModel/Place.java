@@ -8,18 +8,18 @@ public class Place {
     private final List nickNames;
     private final String description;
     private final Point placePoint;
-    private final List placeEntries;
+    //private final List placeEntries;
     private final String buildingNumber;
     private final String faculty;
     private boolean approved = false;
 
-    public Place (String name, List nickNames, String description, Point placePoint, List placeEntries,
+    public Place (String name, List nickNames, String description, Point placePoint, //List placeEntries,
                   String buildingNumber, String faculty) {
         this.name = name;
         this.nickNames = nickNames;
         this.description = description;
         this.placePoint = placePoint;
-        this.placeEntries = placeEntries;
+        //this.placeEntries = placeEntries;
         this.buildingNumber = buildingNumber;
         this.faculty = faculty;
     }
@@ -40,9 +40,9 @@ public class Place {
         return placePoint;
     }
 
-    public List getPlaceEntries() {
+    /*public List getPlaceEntries() {
         return placeEntries;
-    }
+    }*/
 
     public String getBuildingNumber() {
         return buildingNumber;
