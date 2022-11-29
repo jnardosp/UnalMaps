@@ -21,8 +21,7 @@
             android:id="@+id/accessButton"
             android:layout_width="wrap_content"
             style="@style/configButton"
-            android:text="@string/accessButtonTxt"
-            android:textColor="#000000" />
+            android:text="@string/accessButtonTxt" />
 
         <Space
             android:layout_width="0dp"
@@ -32,8 +31,7 @@
             android:id="@+id/infoDevsButton"
             android:layout_width="wrap_content"
             style="@style/configButton"
-            android:text="@string/infoDevsButton"
-            android:textColor="#000000" />
+            android:text="@string/infoDevsButton" />
 
         <Space
             android:layout_width="0dp"
