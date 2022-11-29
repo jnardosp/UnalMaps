@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.UnalMaps" parent="Theme.MaterialComponents.Light.NoActionBar">
-
+        <!-- To force only light theme -->
         <item name="android:forceDarkAllowed">false</item>
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/primaryColor</item>
