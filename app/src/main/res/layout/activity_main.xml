@@ -20,21 +20,22 @@
             android:padding="@dimen/appbar_padding"
             android:text="@string/app_name"
             android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
-            android:textColorLink="@color/lightTealGreen" />
+            style="@style/mainTextView" />
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/aquamarine"
-            app:tabIndicatorColor="@color/darkBlue" />
+            style="@style/tabs"
+            app:tabIndicatorColor="@color/black" />
+
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/lightAquamarine"
+        android:background="@color/mainColor"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -45,8 +46,8 @@
         android:layout_marginEnd="@dimen/locateButton_margin"
         android:layout_marginBottom="@dimen/locateButton_margin"
         android:contentDescription="@string/locateText"
-        app:backgroundTint="@color/orangeRed"
-        app:rippleColor="@color/lightGray"
+        style="@style/locateMeButton"
+        app:rippleColor="@color/black"
         app:srcCompat="@android:drawable/ic_menu_myplaces" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

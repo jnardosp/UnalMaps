@@ -10,7 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:background="@color/mainColor">
 
         <Space
             android:layout_width="0dp"
@@ -19,9 +20,7 @@
         <Button
             android:id="@+id/accessButton"
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:backgroundTint="@color/lightTealGreen"
+            style="@style/configButton"
             android:text="@string/accessButtonTxt"
             android:textColor="#000000" />
 
@@ -32,9 +31,7 @@
         <Button
             android:id="@+id/infoDevsButton"
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:backgroundTint="@color/lightTealGreen"
+            style="@style/configButton"
             android:text="@string/infoDevsButton"
             android:textColor="#000000" />
 
