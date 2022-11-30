@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/lightPrimaryColor">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        android:text="Contacto : unalmaps@gmail.com \n\n\nHecho por : Juan Bernardo Soto Pescador y Miguel Gualli"
+        android:textSize="22sp"
+        android:textColor="@color/mainColor"
+        android:contentDescription="Nuesto contacto es unalmaps@gmail.com, app hecha por Juan Bernardo Soto Pescador y Miguel Gualli, presiona 2 veces para cerrar la pestaña"/>
+
+</RelativeLayout>
