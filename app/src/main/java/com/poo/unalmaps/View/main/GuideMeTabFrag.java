@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import androidx.fragment.app.Fragment;
 
 import com.mapbox.maps.MapView;
+import com.mapbox.maps.plugin.Plugin;
 import com.poo.unalmaps.R;
 
 public class GuideMeTabFrag extends Fragment {
@@ -25,4 +26,7 @@ public class GuideMeTabFrag extends Fragment {
         return view;
     }
 
+    public void onViewCreated(View view, Bundle savedInstanceState){
+        //Implementate Mapbox Navigation API
+    }
 }

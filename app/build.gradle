@@ -4,6 +4,10 @@ plugins {
 }
 
 android {
+    compileOptions{
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
     namespace 'com.poo.unalmaps'
     compileSdk 32
 
@@ -50,4 +54,6 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:31.1.0')
     //realtime database
     implementation 'com.google.firebase:firebase-database'
+    //Navigation UI
+    implementatio 'com.mapbox.mapboxsdk:mapbox-android-navigation-ui:'
 }
