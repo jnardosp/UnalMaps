@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "474917184474",
+    "firebase_url": "https://unalmaps-6356c-default-rtdb.firebaseio.com",
+    "project_id": "unalmaps-6356c",
+    "storage_bucket": "unalmaps-6356c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474917184474:android:b84486e22fe92211a956e3",
+        "android_client_info": {
+          "package_name": "com.poo.unalmaps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474917184474-6t0mk0apvaokgr436o4s9pms79l11mtk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAswpDRqomGl091u-0Pp7I6jn48AGnwN70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474917184474-6t0mk0apvaokgr436o4s9pms79l11mtk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

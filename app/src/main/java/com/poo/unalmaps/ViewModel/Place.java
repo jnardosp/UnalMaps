@@ -5,7 +5,7 @@ import java.util.List;
 //Made by N0chez
 public class Place {
     private final String name;
-    private final List nickNames;
+    private final String nickNames;
     private final String description;
     private final Point placePoint;
     //private final List placeEntries;
@@ -13,7 +13,7 @@ public class Place {
     private final String faculty;
     private boolean approved = false;
 
-    public Place (String name, List nickNames, String description, Point placePoint, //List placeEntries,
+    public Place (String name, String nickNames, String description, Point placePoint, //List placeEntries,
                   String buildingNumber, String faculty) {
         this.name = name;
         this.nickNames = nickNames;
@@ -28,7 +28,7 @@ public class Place {
         return name;
     }
 
-    public List getNickNames() {
+    public String getNickNames() {
         return nickNames;
     }
 
